@@ -1,0 +1,32 @@
+{
+    "name": "makerobo",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "cBit": "github:zhuning239/cbit#2ab61d09f2f921deaafc7a16634c1a0914fd7b93",
+        "microphone": "*",
+        "I2C_LCD1602": "github:zhuning239/i2clcd1602#c06fc391319fad8e54155ab9340cf98cdf820daf"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.61",
+        "tag": "v3.0.61",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9ff91acb8524c6a52fee90cf7194a4643c424363",
+        "target": "4.0.11",
+        "pxt": "6.0.35",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
